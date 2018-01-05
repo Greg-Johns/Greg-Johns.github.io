@@ -6,8 +6,7 @@ path: "/io.js/"
 
 ![io](https://rawgithub.com/Gajit/logos/master/logos/hex-3d/io.svg) 
 
-Logo design for io.js
-<span class="more"></span>
+#### Logo design for io.js
 
 When some of the core [node.js](https://nodejs.org) developers branched node earlier this year into [io.js](https://iojs.org/en/index.html). I thought I would pitch in the logo design frenzy with a design inspired by node's green hex and the 3D boxy look that's all the rage now days.
 

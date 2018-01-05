@@ -103,8 +103,8 @@ footer p {
 }
 footer b {
   display: block;
-  font-size: 28px;
-  margin: 8px 0;
+  font-size: 20px;
+  margin: 6px 0;
 }
 footer > * {
   color: #999;
@@ -113,7 +113,7 @@ footer > * {
 footer span {
   display: flex;
   justify-content: center;
-  margin: 18px 0;
+  margin: 6px 0;
 }
 footer span a svg {
   height: 28px;
@@ -122,6 +122,10 @@ footer span a svg {
 }
 footer span a:hover svg {
   fill: #96741D;
+}
+
+footer small {
+  font-size: 10px;
 }
 
 h3 {
@@ -207,7 +211,6 @@ a:link {
   /* color: #333; */
 }
 
-
 .postHeader {
   position: sticky;
   top: 0;
@@ -256,5 +259,8 @@ blockquote p {
   }
   section {
     margin: 0 0.6em;
+  }
+  .postHeader {
+    font-size: 32px;
   }
 }

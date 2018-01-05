@@ -7,6 +7,8 @@ path: "/ants/"
 ![ants](./escher_ant.jpg)
 #### Or Human stigmergy at work
 
+> Note: ~~Metalsmith~~ now Gatsby. I recently changed static site generator to [Gatsby](https//www.gatsbyjs.org). If your into React and you should check it out.
+
 This is my first post with a shiny new [metalsmith](http://www.metalsmith.io/) engine blog thing and without getting too lengthy, I just wanted to get something down for posterity and a bit of refocus on **why** write. The problem with thinking about "why write" can get reflective, which leads procrastination, writer's block and bad places for a writer. Sure enough I soon found myself mindlessly surfing the web.
 
 Or so I thought. Somewhere in the winding link's I found my way to  reading a [blog article](http://bitworking.org/news/Stigmergy) from [Joe Gregorio](http://bitworking.org/news/bio) who talks about how the *Web = Stigmergy*. If your not sure what Stigmergy is, I'll pull the same quote Joe used to describe a term French biologist Pierre-Paul Grasse used to describe interaction through the environment.

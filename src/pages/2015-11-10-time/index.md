@@ -5,7 +5,7 @@ path: "/time/"
 ---
 
 ![time](./timewinder.jpg)
-It' high time to write about *Time*.
+#### It's high time to write about *Time*.
 
 While working in Verizon's R&D lab's I had some *time* to think about *time*. Not just as it pertains to the users experience but also as a function of the system itself, like a clock interface. This helps you think about all sorts of things as potential interfaces to measures *time*.
 
@@ -17,4 +17,4 @@ So in the interest of *time* and future reference.
 
 [TimeWinder](./TimeWinder.pdf)
 
-> This was pitched 7 years ago, so think dawn of smart phone *time* to help set the "mood" of the interface.
+> This was pitched 7 years ago, so think dawn of smart phone *time* to help explain the now antique looking cell phone and interface elements used in the PDF.
