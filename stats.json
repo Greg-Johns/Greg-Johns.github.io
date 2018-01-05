@@ -1,0 +1,72 @@
+{
+  "assetsByChunkName": {
+    "path---grokkr": [
+      "path---grokkr-d24c1cf40e80254c107b.js",
+      "path---grokkr-d24c1cf40e80254c107b.js.map"
+    ],
+    "path---time": [
+      "path---time-e602c15a3eb6059dbf99.js",
+      "path---time-e602c15a3eb6059dbf99.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-8b9548f354c000af64a2.js",
+      "component---src-pages-index-js-8b9548f354c000af64a2.js.map"
+    ],
+    "path---ants": [
+      "path---ants-8020c0ea37f7aa26daa2.js",
+      "path---ants-8020c0ea37f7aa26daa2.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-9b4c7252a84bb1e11769.js",
+      "component---src-templates-blog-post-js-9b4c7252a84bb1e11769.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-eb165ab4fc5932b9ee87.js",
+      "component---src-layouts-index-js-eb165ab4fc5932b9ee87.js.map"
+    ],
+    "path---index": [
+      "path---index-fb496bea9d86c8f59948.js",
+      "path---index-fb496bea9d86c8f59948.js.map"
+    ],
+    "commons": [
+      "commons-2bf296ec070bc9693d3a.js",
+      "build-js-styles.css",
+      "commons-2bf296ec070bc9693d3a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---io-js": [
+      "path---io-js-dbc3c2d4560049c66b9f.js",
+      "path---io-js-dbc3c2d4560049c66b9f.js.map"
+    ],
+    "app": [
+      "app-c14ae25b263bbe7c324a.js",
+      "build-js-styles.css",
+      "app-c14ae25b263bbe7c324a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---qpt": [
+      "path---qpt-245d386edc7533c4fda3.js",
+      "path---qpt-245d386edc7533c4fda3.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-9f32244a54d7939de5e7.js",
+      "component---src-pages-about-js-9f32244a54d7939de5e7.js.map"
+    ],
+    "path---about": [
+      "path---about-fdf2d03ea32cc49dec93.js",
+      "path---about-fdf2d03ea32cc49dec93.js.map"
+    ]
+  }
+}
