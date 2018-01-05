@@ -36,6 +36,8 @@ header {
   font-weight: bold;
   line-height: normal;
   font-size: 84px;
+  transition-property: font-size;
+  transition-duration: .4s;
   letter-spacing: -0.04em;
   border-bottom: 1px solid #96741D;
   margin-bottom: 32px;
@@ -63,11 +65,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #96741D;
 }
 
+figure {
+  float: left;
+  padding: 8px;
+  border: 1px solid #CFA63E;
+  margin-right: 1em;
+  text-align: right;
+}
+.figless {
+  border: 0;
+  float: right;
+  text-align: left;
+  margin: 0 -22px 0 10px;
+}
+
 figcaption {
-    line-height: 0;
-    margin-top: -20px;
-    font-size: 10px;
-    font-style: italic;
+  line-height: 0;
+  margin-top: -20px;
+  font-size: 10px;
+  font-style: italic;
 }
 
 h2 {
@@ -123,7 +139,6 @@ footer span a svg {
 footer span a:hover svg {
   fill: #96741D;
 }
-
 footer small {
   font-size: 10px;
 }
@@ -180,7 +195,7 @@ time span::before {
   display: block;
   color: #CFA63E;
   font-size: 12px;
-  content: '-.-.-.-.-.-.-.-.-.-';
+  content: '-.-.-.-.-.-.-.-';
 }
 time span {
   padding: 16px 0;
@@ -211,6 +226,7 @@ a:link {
   /* color: #333; */
 }
 
+
 .postHeader {
   position: sticky;
   top: 0;
@@ -221,7 +237,6 @@ a:link {
   text-align: center;
   background: #fff;
   color: #96741D;
-  /* border-bottom: 1px dashed grey; */
 }
 article p {
   margin: 32px 0;
@@ -257,10 +272,25 @@ blockquote p {
   header {
     font-size: 48px;
   }
+  .postHeader {
+    font-size: 32;
+  }
   section {
     margin: 0 0.6em;
   }
-  .postHeader {
-    font-size: 32px;
+  figure, .figless {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  figure img {
+    width: 100%;
+  }
+  figure figcaption {
+    margin: -10px 0 6px 0;
+    display: block;
   }
 }

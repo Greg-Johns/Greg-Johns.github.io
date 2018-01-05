@@ -5,18 +5,18 @@ path: "/ants/"
 ---
 
 ![ants](./escher_ant.jpg)
-#### Or Human stigmergy at work
+#### Wondering off path
 
-> Note: ~~Metalsmith~~ now Gatsby. I recently changed static site generator to [Gatsby](https//www.gatsbyjs.org). If your into React and you should check it out.
+This is my first post with a shiny new [metalsmith](http://www.metalsmith.io/) blog engine thing that let's me vim my markdown files, do all sorts of crazy source transformations and spit out clean, optimized code.
 
-This is my first post with a shiny new [metalsmith](http://www.metalsmith.io/) engine blog thing and without getting too lengthy, I just wanted to get something down for posterity and a bit of refocus on **why** write. The problem with thinking about "why write" can get reflective, which leads procrastination, writer's block and bad places for a writer. Sure enough I soon found myself mindlessly surfing the web.
+So here it is but more than just posting "something" I wanted to take this post to help me refocus on **why** I started this site in the first place. I started it was because I've always really liked [Sir Tim's idea](http://info.cern.ch/hypertext/WWW/TheProject.html). The problem with keeping a personal site is that you need to write something to go on the site, this can be hard for the unfocused mind which leads to procrastination, writer's block and bad places for a writer. So a few minutes after sitting down to start the writing process I found myself trapped in a hyperlink wormhole.
 
-Or so I thought. Somewhere in the winding link's I found my way to  reading a [blog article](http://bitworking.org/news/Stigmergy) from [Joe Gregorio](http://bitworking.org/news/bio) who talks about how the *Web = Stigmergy*. If your not sure what Stigmergy is, I'll pull the same quote Joe used to describe a term French biologist Pierre-Paul Grasse used to describe interaction through the environment.
+#### A Stigmergy interaction
 
-> Self-Organization in social insects often requires interactions among insects: such interactions can be direct or indirect. Direct interactions are the "obvious" interactions: antennation, trophallaxis (food or liquid exchange), mandibular contact, visual contact, chemical contact (the odor of nearby nestmates), etc. Indirect interactions are more subtle: two individuals interact indirectly when one of then modifies the environment and the other responds to the new environment at a later time. Such an interaction is an example of stigmergy.
+Somewhere in the winding link's I found my way to reading a [blog article](http://bitworking.org/news/Stigmergy) from [Joe Gregorio](http://bitworking.org/news/bio) who talks about how the *Web = Stigmergy*. If your not sure what Stigmergy is, I'll pull the same quote from French biologist Pierre-Paul Grasse that Joe used.
 
-In an example he talks about how an ant use a pheremone trails to communicate food source to other ants. He goes on to claim that *The World-Wide Web is the first stimeric communication medium for humans*.
+> Self-Organization in social insects often requires interactions among insects: such interactions can be direct or indirect. Direct interactions are the "obvious" interactions... Indirect interactions are more subtle: two individuals interact indirectly when one of then modifies the environment and the other responds to the new environment at a later time. Such an interaction is an example of stigmergy.
 
-It's was all interesting and of course when I start reading quotes from old scientist then I know I'm getting somewhere. But wait... I was suppose to write something. Ok, back to my own article. Why am I writing again... Oh yeah, because I've always enjoyed it and as for as posting writing on the web I guess I'm just trying to help out any other interested ants.
+So basically, interaction through the environment. In an example he talks about how an ant uses pheremone trails to communicate a food source to other ants. He goes on to claim that *The World-Wide Web is the first stimeric communication medium for humans*.
 
-> Thanks to [Blake Embrey](http://blakeembrey.com/) for putting up his help-full build pipeline that I forked for this site and I would like to add to Joe's claim that **open source** could be a binary equivalent to pheromones.
+It's was very interesting and I could have keep the procrastination up much longer but felt like getting back to writing something. Ok so here it is. It's very self descriptive but I was just wanting to kick the tires on Metalsmith and get back into a writing mode more than actually writing something useful and I got you use a lot of big new words.
