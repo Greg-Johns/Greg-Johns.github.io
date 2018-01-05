@@ -32,7 +32,7 @@ Armed with this key knowledge, managers can then use Grokker to set triggers on 
 Grokker also helps pinpoint potential items for mark down or mark up and help identify special case items like low selling items that might have strong customer loyalty letting you keep stores inventory optimized with just what your customers want.
 
 ![Grokker Math](./grokkermath.png)
-Grokker will weigh an items shelf life against it's current selling trend then check that with it's next scheduled order date to determine a ***buy*** or ***Sell*** status on an item. Grokker makes it easy to set up a variety of *buy/sell* triggers and notifications that let managers feel like the stores whole inventory just got on *facebook*.
+Grokker will weigh an items shelf life against it's current selling trend then check that with it's next scheduled order date to determine a ***buy*** or ***sell*** status on an item. Grokker makes it easy to set up a variety of *buy/sell* triggers and notifications that let managers feel like the stores whole inventory just got on *facebook*.
 
 ##### Inventory View
 ---

@@ -7,6 +7,10 @@ import spock from './spock.jpg'
 import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 
+const breakerBreaker = {
+  clear: 'both',
+}
+
 class BlogAbout extends React.Component {
 
   render() {
@@ -44,7 +48,7 @@ class BlogAbout extends React.Component {
           WWW thing. This was a sea change for me and would set me to seek out a truer
           self as a “creative/techie/nerd” type.</p>
 
-          <h2> ~ * ~ </h2>
+          <h2 style={ breakerBreaker }> ~ * ~ </h2>
 
           <figure className='figless'>
             <img src={spock} alt="spock" />

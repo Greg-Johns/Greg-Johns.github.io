@@ -1,5 +1,5 @@
 ---
-title: Wonderer
+title: Wanderer
 date: "2018-01-04"
 path: "/wondering/"
 ---
@@ -14,4 +14,7 @@ Also, I got a newer blogger engine thing, with more new coolness. That's right, 
 
 We just celebrated the new year a few days ago when people look back through time while equally thinking about the new year to come. I would imagine that "write more" is a common resolve for people that do such things. New years resolution always seem like a self-esteem trap and I resolve not to make any. Ok, any but one. I resolve to **try** to catch more of that slippery time and write more.
 
-![ants](./ant_rotated.png)
+<figure class='mdFigure'>
+  <img src='./ant_rotated.png' alt="ant" />
+  <figcaption>M.C. Escher / Möbius Strip II</figcaption>
+</figure>

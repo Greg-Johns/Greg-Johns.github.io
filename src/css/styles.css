@@ -78,12 +78,20 @@ figure {
   text-align: left;
   margin: 0 -22px 0 10px;
 }
+.mdFigure {
+  float: none;
+  border: 0;
+  width: 100%;
+}
 
 figcaption {
   line-height: 0;
   margin-top: -20px;
   font-size: 10px;
   font-style: italic;
+}
+.mdFigure figcaption {
+  margin: 14px 0;
 }
 
 h2 {
@@ -119,8 +127,8 @@ footer p {
 }
 footer b {
   display: block;
-  font-size: 20px;
-  margin: 6px 0;
+  font-size: 28px;
+  margin: 8px 0;
 }
 footer > * {
   color: #999;
@@ -129,7 +137,7 @@ footer > * {
 footer span {
   display: flex;
   justify-content: center;
-  margin: 6px 0;
+  margin: 18px 0;
 }
 footer span a svg {
   height: 28px;
@@ -138,9 +146,6 @@ footer span a svg {
 }
 footer span a:hover svg {
   fill: #96741D;
-}
-footer small {
-  font-size: 10px;
 }
 
 h3 {
@@ -195,7 +200,7 @@ time span::before {
   display: block;
   color: #CFA63E;
   font-size: 12px;
-  content: '-.-.-.-.-.-.-.-';
+  content: '-.-.-.-.-.-.-.-.-';
 }
 time span {
   padding: 16px 0;
@@ -237,6 +242,7 @@ a:link {
   text-align: center;
   background: #fff;
   color: #96741D;
+  /* border-bottom: 1px dashed grey; */
 }
 article p {
   margin: 32px 0;
@@ -271,9 +277,6 @@ blockquote p {
 @media only screen and (max-width: 500px) {
   header {
     font-size: 48px;
-  }
-  .postHeader {
-    font-size: 32;
   }
   section {
     margin: 0 0.6em;
