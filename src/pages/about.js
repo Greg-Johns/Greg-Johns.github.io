@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import "../css/styles.css";
+import '../css/styles.css'
 import get from 'lodash/get'
 import me from './me.png'
 import spock from './spock.jpg'
@@ -8,12 +8,11 @@ import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 
 const breakerBreaker = {
-  clear: 'both',
+  clear: 'both'
 }
 
 class BlogAbout extends React.Component {
-
-  render() {
+  render () {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
 
     return (
@@ -21,13 +20,13 @@ class BlogAbout extends React.Component {
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 
         <Link to='/'>
-          <header>{get(this, 'props.data.site.siteMetadata.title')}</header>
+          <header>GREG JOHNS</header>
         </Link>
         <article>
           <h2>~ About ~</h2>
 
           <figure>
-            <img src={me} alt="me" />
+            <img src={me} alt='me' />
             <figcaption>Me on day #1,790</figcaption>
           </figure>
 
@@ -48,10 +47,10 @@ class BlogAbout extends React.Component {
           WWW thing. This was a sea change for me and would set me to seek out a truer
           self as a “creative/techie/nerd” type.</p>
 
-          <h2 style={ breakerBreaker }> ~ * ~ </h2>
+          <h2 style={breakerBreaker}> ~ * ~ </h2>
 
           <figure className='figless'>
-            <img src={spock} alt="spock" />
+            <img src={spock} alt='spock' />
             <figcaption>Transported</figcaption>
           </figure>
 
@@ -81,7 +80,7 @@ class BlogAbout extends React.Component {
 }
 
 BlogAbout.propTypes = {
-  route: React.PropTypes.object,
+  route: React.PropTypes.object
 }
 
 export default BlogAbout
