@@ -13,8 +13,12 @@
       "component---src-pages-index-js-8b9548f354c000af64a2.js.map"
     ],
     "path---ants": [
-      "path---ants-88dddc463c1bba9822df.js",
-      "path---ants-88dddc463c1bba9822df.js.map"
+      "path---ants-eb037b6b9a1c32125e25.js",
+      "path---ants-eb037b6b9a1c32125e25.js.map"
+    ],
+    "path---wondering": [
+      "path---wondering-50e2d8ee2883bf1b257c.js",
+      "path---wondering-50e2d8ee2883bf1b257c.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -33,8 +37,8 @@
       "component---src-layouts-index-js-eb165ab4fc5932b9ee87.js.map"
     ],
     "path---index": [
-      "path---index-3becbb102ba13698e6a0.js",
-      "path---index-3becbb102ba13698e6a0.js.map"
+      "path---index-a6ab5647585c5abf811b.js",
+      "path---index-a6ab5647585c5abf811b.js.map"
     ],
     "commons": [
       "commons-2bf296ec070bc9693d3a.js",
@@ -51,9 +55,9 @@
       "path---io-js-ae8d9177045cc723247d.js.map"
     ],
     "app": [
-      "app-0cb5706a90025c57a513.js",
+      "app-ee0f9a963491f2f8690d.js",
       "build-js-styles.css",
-      "app-0cb5706a90025c57a513.js.map",
+      "app-ee0f9a963491f2f8690d.js.map",
       "build-js-styles.css.map"
     ],
     "path---qpt": [
@@ -61,8 +65,8 @@
       "path---qpt-245d386edc7533c4fda3.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-9f32244a54d7939de5e7.js",
-      "component---src-pages-about-js-9f32244a54d7939de5e7.js.map"
+      "component---src-pages-about-js-af445cf8a6ed384b3662.js",
+      "component---src-pages-about-js-af445cf8a6ed384b3662.js.map"
     ],
     "path---about": [
       "path---about-fdf2d03ea32cc49dec93.js",
