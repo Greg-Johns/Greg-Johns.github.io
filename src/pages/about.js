@@ -71,9 +71,16 @@ class BlogAbout extends React.Component {
           various projects and companies. I’m not patial to any one type of development or
           framework but mainly work in a JAMstack to getting ideas to the screen. Feel free
           to contact me with any work oportunities you might have or for a more formal
-          history please see my resume or checkout any of the links below.</p>
+          history please see my checkout any of the links below.</p>
 
-          <a href='../cv/index.html'>Resume</a>
+          <div className='btnLinks'>
+            <a href='http://www.gregjohns.com/cv'>Resume</a>
+            <a href='http://twitter.com/greg_johns'>Twitter</a>
+            <a href='https://www.behance.net/gregjohns'>Behance</a>
+            <a href='https://www.linkedin.com/in/gajohns/'>LinkedIn</a>
+            <a href='https://github.com/Greg-Johns'>Github</a>
+            <a href='https://codepen.io/Gajit'>CodePen</a>
+          </div>
         </article>
         <nav>
           <Link to='/'>~ Index ~</Link>
