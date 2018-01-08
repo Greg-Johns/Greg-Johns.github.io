@@ -33,10 +33,13 @@ class BlogAbout extends React.Component {
           <p>Hello and thanks for stopping by my site.</p>
 
           <p>I’m Greg Johns, a designer, software engineer, tinkerer, hacker, father
-          of two and husband to one. Who has maintained a personal website since before
-          they where called blogs. The thoughts and writing on this site pertain mainly
-          to working and playing with computers, open source ideas, creativity or any
-          other thing I might find interesting enough to “blog” about.</p>
+          of two and husband to one. I have kept up this personal website since before
+          they were called blogs and still enjoy the self hosted, decentralized approach
+					to web-publishing over the social media giants. (Although I still use some of those as well)
+
+					The thoughts and writing on this site pertain mainly to working and playing
+					with computers, open source ideas, creativity or any other thing I might find
+					interesting enough to blog about.</p>
 
           <p>As a youngster I was ever the artistic type, always drawing, painting,
           making something or reading comics  and sci-fi books which garnered me a
@@ -69,6 +72,8 @@ class BlogAbout extends React.Component {
           framework but mainly work in a JAMstack to getting ideas to the screen. Feel free
           to contact me with any work oportunities you might have or for a more formal
           history please see my resume or checkout any of the links below.</p>
+
+          <a href='../cv/index.html'>Resume</a>
         </article>
         <nav>
           <Link to='/'>~ Index ~</Link>

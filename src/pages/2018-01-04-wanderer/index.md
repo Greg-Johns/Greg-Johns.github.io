@@ -1,7 +1,7 @@
 ---
 title: Wanderer
 date: "2018-01-04"
-path: "/wondering/"
+path: "/wandering/"
 ---
 
 So much for staying on path and focused. It's been over two year's since that writing that "stay focused", "write more" crap and I only wrote one more post after that. Then nothing...

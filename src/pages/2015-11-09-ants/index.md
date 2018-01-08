@@ -9,7 +9,7 @@ path: "/ants/"
   <figcaption>M.C. Escher / Möbius Strip II</figcaption>
 </figure>
 
-#### Wondering off path
+#### Wandering off path
 
 This is my first post with a shiny new [metalsmith](http://www.metalsmith.io/) blogging engine that let's me vim my markdown files, do all sorts of crazy source transformations and spit out a clean, static, optimized website.
 
