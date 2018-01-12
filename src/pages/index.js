@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import "../css/styles.css";
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import PostCard from '../components/PostCard'
 import Footer from '../components/Footer'
 
 const disabledBtn = {
@@ -25,13 +26,14 @@ class BlogIndex extends React.Component {
           if (post.node.path !== '/404/') {
             const title = get(post, 'node.frontmatter.title') || post.node.path
             return (
-              <Link to={post.node.frontmatter.path} >
-                <section>
-                  <h3>{post.node.frontmatter.title}</h3>
-                  <time>{post.node.frontmatter.date}</time>
-                  <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-                </section>
-              </Link>
+              <PostCard title={title} node={post.node} />
+              // <Link to={post.node.frontmatter.path} >
+              //   <section>
+              //     <h3>{post.node.frontmatter.title}</h3>
+              //     <time>{post.node.frontmatter.date}</time>
+              //     <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+              //   </section>
+              // </Link>
             )
           }
         })}
