@@ -9,11 +9,9 @@ path: "/grokkr/"
 
 What could you do with lot's of anonymized purchasing data???
 
-Imagine a large grocery chain gave you access to the anonymized purchase history of all its customers.
+Imagine a large grocery chain gave you access to the anonymized purchase history of all its customers. Your tasked with creating a user experience for the retailer to explore this data, discover insights, and apply them to make their business more profitable and their customers happy.
 
-Design a user experience for the retailer to explore this data, discover insights, and apply them to make their business more profitable and their customers happy.
-
-> This problem was originally given to me by a company I was talking to about contract work. Candidates where given a day to work through the problem and come up with rough, sketches, wire-frames or whatever they could to convey a solution.  They never called me back so it might not have been the kind of answer they where looking for but I thought it a fun exercise and wanted to get some more use out of the long night I spent thinking about it so on the blog it goes.
+> This problem was originally given to me by a company I interviewed with. Candidates where given a day to work through the problem and come up with rough, sketches, wire-frames or whatever they could to convey a solution.  They never called me back so it might not have been the kind of answer they where looking for but I thought it a fun exercise and wanted to get some more use out of my efforts so here's what I came up with.
 
 #### *Answer:*
 
@@ -47,5 +45,3 @@ Grokker's Inventory view gives a vertical list of all story items with an items 
 If an items projected outage date is before the next order date it could potentially run short and might need to be re-ordered sooner. Items selling slower than projected are flagged for price cuts or marketing intervention.
 
 ---
-
-> I went on to wireframe out triggering items that would get pushed WiFi to in store customers and probably over killed the basic idea. It seems like stores would have some means to accomplish this already anyway and I could have been way off mark but at the time seemed a good use of the data.

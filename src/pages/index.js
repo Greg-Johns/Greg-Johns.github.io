@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 const disabledBtn = {
   color: '#999',
-  fontSize: 'smaller'
+  fontSize: '14px',
 }
 
 class BlogIndex extends React.Component {
@@ -27,18 +27,11 @@ class BlogIndex extends React.Component {
             const title = get(post, 'node.frontmatter.title') || post.node.path
             return (
               <PostCard title={title} node={post.node} />
-              // <Link to={post.node.frontmatter.path} >
-              //   <section>
-              //     <h3>{post.node.frontmatter.title}</h3>
-              //     <time>{post.node.frontmatter.date}</time>
-              //     <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-              //   </section>
-              // </Link>
             )
           }
         })}
         <nav>
-          <a style={disabledBtn}>~ Older Stuff</a> | <Link to='/about/'>About</Link> | <a style={disabledBtn}>Newer Stuff ~</a>
+          <span style={disabledBtn}>~ Older stuff</span> | <Link to='/about/'>About</Link> | <span style={disabledBtn}>Newer stuff ~</span>
         </nav>
         <Footer />
       </div>

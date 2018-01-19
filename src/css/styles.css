@@ -21,7 +21,7 @@ header::before {
   text-align: left;
   content: 'Stuff';
   color: #CFA63E;
-  font-family: Garamond;
+  font-family: "Garamond";
   font-style: italic;
   letter-spacing: 1.6px;
   padding: 40px 0 0 28px;
@@ -30,7 +30,7 @@ header::before {
 }
 header {
   text-align: center;
-  font-family: Futura;
+  font-family: "Futura";
   color: #000;
   font-style: normal;
   font-weight: bold;
@@ -49,7 +49,7 @@ header::after {
   width: 96%;
   text-align: right;
   color: #CFA63E;
-  font-family: Garamond;
+  font-family: "Garamond";
   font-style: italic;
   content: 'wrote';
   letter-spacing: 1.6px;
@@ -58,8 +58,21 @@ header::after {
   border-bottom: 2px dotted #CFA63E;
 }
 
+.about::before {
+  content: 'More about';
+}
+.about::after {
+  content: 'than you probably wanted to know';
+}
+.portfolio::before {
+  content: 'Proudly presenting';
+}
+.portfolio::after {
+  content: 'personal yet professional';
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: Garamond;
+  font-family: "Garamond";
   font-style: italic;
   letter-spacing: 1px;
   color: #CFA63E;
@@ -69,7 +82,7 @@ figure {
   float: left;
   padding: 8px;
   border: 1px solid #CFA63E;
-  margin-right: 1em;
+  margin: 12px 1em 0 0;
   text-align: right;
 }
 .figless {
@@ -80,6 +93,7 @@ figure {
 }
 .mdFigure {
   float: none;
+  display: block;
   border: 0;
   width: 100%;
 }
@@ -122,7 +136,7 @@ footer {
 }
 footer p {
   font-size: 11px;
-  font-family: Futura;
+  font-family: "Futura";
   line-height: 1.5;
 }
 footer b {
@@ -157,21 +171,34 @@ h3 {
   border-bottom: 1px dashed grey;
 }
 
-.homeLink {
-  position: sticky;
-  top: 28px;
+.listLinks li {
+  list-style: none;
+}
+.listLinks li:before {
+  content: '*';
+  font-size: 28px;
+  font-weight: bold;
+  margin: 4px;
   color: #E3DAC3;
-  font-family: Futura;
+}
+
+.listLinks li a {
+  color: #96741D;
+  font-family: "Futura";
   font-weight: 700;
-  font-size: 46px;
-  margin: 28px 0;
-  z-index: 1001;
+  font-size: 24px;
+  padding: 16px 0; 
 }
 
 p {
   font-size: 14px;
   line-height: 1.5;
   margin: 0;
+}
+
+.intro::first-letter {
+  font-size: 24px;
+  color: #96741D;
 }
 
 section {
@@ -185,7 +212,7 @@ section:last-of-type {
 }
 
 time {
-  float: right;
+  float: right; 
   font-size: 11px;
   margin-right: 12px;
   margin-top: -44px;
@@ -231,13 +258,12 @@ a:link {
   /* color: #333; */
 }
 
-
 .postHeader {
   position: sticky;
   top: 0;
   padding: 18px 0;
-  font-family: Garamond;
-  font-size: 42px;
+  font-family: "Garamond";
+  font-size: 32px;
   letter-spacing: -1px;
   text-align: center;
   background: #fff;
@@ -254,6 +280,9 @@ footer p {
 article a {
   font-weight: 600;
   text-decoration: #CFA63E wavy underline;
+}
+article a:hover {
+  text-decoration: #96741D dotted underline;
 }
 
 code {
@@ -274,25 +303,18 @@ blockquote p {
   margin: 0;
 }
 
-.btnLinks {
-  text-align: center;
-  padding-bottom: 44px;
-}
-.btnLinks a {
-  display: inline-block;
+nav a {
   padding: 4px 8px;
-  margin: 4px 6px;
-  font-size: 12px;
-  font-family: Futura;
-  font-weight: 300;
+  font-family: "Futura";
+  font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #CFA63E;
+  color: #96741D;
   background: #f7f6f4;
   border-radius: 3px;
 }
 
-.btnLinks a:hover {
+nav a:hover {
   color: #f7f6f4;
   background: #96741D;
 }

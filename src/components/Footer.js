@@ -8,7 +8,7 @@ class Bio extends React.Component {
         <p>
           This site is the online place for the thoughts and writings of Greg Johns
           an independant designer and software engineer living in the DFW area of Texas.
-          For more on myself and work please see CV or
+          For more on myself and work please see <Link to='/about/'>About</Link> or
         </p>
         <b>@</b>
         <span>
