@@ -119,6 +119,20 @@ nav {
   width: 96%;
   border-top: 1px solid #CFA63E;
 }
+nav a {
+  padding: 4px 8px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #96741D;
+  background: #f7f6f4;
+  border-radius: 3px;
+}
+
+nav a:hover {
+  color: #f7f6f4;
+  background: #96741D;
+}
 
 footer::before {
   display: block;
@@ -185,9 +199,10 @@ h3 {
 .listLinks li a {
   color: #96741D;
   font-family: "Futura";
-  font-weight: 700;
-  font-size: 24px;
-  padding: 16px 0; 
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding: 18px 0; 
 }
 
 p {
@@ -301,22 +316,6 @@ blockquote {
 }
 blockquote p {
   margin: 0;
-}
-
-nav a {
-  padding: 4px 8px;
-  font-family: "Futura";
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #96741D;
-  background: #f7f6f4;
-  border-radius: 3px;
-}
-
-nav a:hover {
-  color: #f7f6f4;
-  background: #96741D;
 }
 
 @media only screen and (max-width: 500px) {
