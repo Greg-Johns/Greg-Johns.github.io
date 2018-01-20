@@ -64,11 +64,8 @@ header::after {
 .about::after {
   content: 'than you probably wanted to know';
 }
-.portfolio::before {
-  content: 'Proudly presenting';
-}
 .portfolio::after {
-  content: 'personal yet professional';
+  content: 'did';
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -132,6 +129,17 @@ nav a {
 nav a:hover {
   color: #f7f6f4;
   background: #96741D;
+}
+
+.homeLink {
+  position: sticky;
+  top: 28px;
+  color: #E3DAC3;
+  font-family: Futura;
+  font-weight: 700;
+  font-size: 46px;
+  margin: 28px 0;
+  z-index: 1001;
 }
 
 footer::before {
