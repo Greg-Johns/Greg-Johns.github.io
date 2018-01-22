@@ -81,10 +81,10 @@ class BlogPortfolio extends React.Component {
 
             <p>For those currious about my thoughts and approach to developing software or computers I have a few related blog posts you can read or skip over to my Github, NPM profiles. For those looking for more of the conceptual/design side of software the following are a few case studies of some of my UI/UX work.</p>
 
-          <h2 style={breakerBreaker}> ~ ~ ~ </h2>
+          <h2 style={breakerBreaker}> ~ UI/UX ~ </h2>
 
           <h5>Verizon FiOS Media Manager</h5>
-          <p>text</p>
+          <p>Screen shots showing Verizon's Media Manager integration with the FiOS TV system. This application let users manage personal media files from a home computer to be viewed through a FiOS TV set top box.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true'>
             <div><img src={vz_fios_mm0} /></div>
             <div><img src={vz_fios_mm1} /></div>
@@ -95,16 +95,8 @@ class BlogPortfolio extends React.Component {
           </Carousel>
 
           <hr />
-          <h5>Verizon FiOS Remote</h5>
-          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
-            <div><img src={vz_fios_rem1} /></div>
-            <div><img src={vz_fios_rem2} /></div>
-            <div><img src={vz_fios_rem3} /></div>
-            <div><img src={vz_fios_rem4} /></div>
-          </Carousel>
-            
-          <hr />
           <h5>Verizon FiOS Facebook Integration</h5>
+          <p>Screen shots showing the user experience of sharing FiOS media with Facebook and other social media platforms.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={80}>
             <div><img src={vz_fios_fb1} /></div>
             <div><img src={vz_fios_fb2} /></div>
@@ -112,15 +104,8 @@ class BlogPortfolio extends React.Component {
           </Carousel>
             
           <hr />
-          <h5>Verizon CX</h5>
-          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={60}>
-            <div><img src={vz_cx1} /></div>
-            <div><img src={vz_cx2} /></div>
-            <div><img src={vz_cx3} /></div>
-          </Carousel>
-            
-          <hr />
           <h5>Verizon Card Search</h5>
+          <p>Screen comps. that illustrate a concept for browsing card style records using the up, down, left, right buttons on older style cell phones.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
             <div><img src={vz_x1} /></div>
             <div><img src={vz_x2} /></div>
@@ -132,13 +117,13 @@ class BlogPortfolio extends React.Component {
             
           <hr />
           <h5>Zix Corp.</h5>
-          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
-            <div><img src={zix1} /></div>
-            <div><img src={zix2} /></div>
-          </Carousel>
+          <p>Screen shots of Zix Corp's site redesign.</p>
+            <div><img src={zix1} className='smImg' /></div>
+            <div><img src={zix2} className='smImg' /></div>
 
           <hr />
           <h5>Ernst & Young</h5>
+          <p>Screen shots of E&Y's new hire orientation site and Value management sites.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
             <div><img src={ey1} /></div>
             <div><img src={ey2} /></div>
@@ -149,6 +134,7 @@ class BlogPortfolio extends React.Component {
 
           <hr />
           <h5>Texas Electronics Inc.</h5>
+          <p>Screen shots of Texas Electronic Inc. corporate site.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
             <div><img src={te1} /></div>
             <div><img src={te2} /></div>
@@ -156,23 +142,17 @@ class BlogPortfolio extends React.Component {
           </Carousel>
 
           <hr />
-          <h5>Creole Brothers Cusine</h5>
-          <p>some awesome text here.</p>
-          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
-            <div><img src={creole1} /></div>
-            <div><img src={creole2} /></div>
-            <div><img src={creole3} /></div>
-          </Carousel>
-           
-          <hr />
           <h5>Various</h5>
-          <p>some awesome text here.</p>
+          <p>A few screen shots of older sites that I designed and developed for various companies earlier in my career.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
             <div><img src={s1} /></div>
             <div><img src={s2} /></div>
             <div><img src={s3} /></div>
             <div><img src={s4} /></div>
             <div><img src={s5} /></div>
+            <div><img src={creole1} /></div>
+            <div><img src={creole2} /></div>
+            <div><img src={creole3} /></div>
           </Carousel>
 
         </article>
