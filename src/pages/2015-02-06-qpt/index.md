@@ -29,7 +29,7 @@ QPT takes the user through the order process flow up till *Ordered* state and le
 
 Some of the  UX concerns where centered on creating quicker designs (compared to older quote systems), a clean modern interface that works in evergreen browsers, and easing the subject matter knowledge needed to build out a *mid*market network design.
 
-Technically this came at a time when the company had just dropped continued support for IE8 browsers. They had also just started moving away from thinking like a big monolithic style IT development shop and micro-services were all the buzz. They also where transitioning from using Microsoft to Oracle/Java middle and back ends and never even thought about client side restful style applications.
+Technically this came at a time when the company had just dropped continued support for IE8 browsers. They had also just started moving away from thinking like a big monolithic style IT development shop and micro-services were all the buzz. They, also, were transitioning from using Microsoft to Oracle/Java middle and back ends and never even thought about client side restful style applications.
 
 The project was conceived in our department so all requirements came mainly from us where my roll in the project was to work with our UX team to conceive and engineer the initial application, hire a team of web/Java developers, then lead development efforts to our stated goals.
 

@@ -391,6 +391,7 @@ blockquote p {
     display: block;
   }
   .homeLink {
+    top: 6px;
     margin-left: 10px;
   }
   .postHeader {

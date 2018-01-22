@@ -86,7 +86,7 @@ class BlogPortfolio extends React.Component {
           <h2 style={breakerBreaker}> ~ UI/UX ~ </h2>
 
           <h5>Verizon FiOS Media Manager</h5>
-          <p>Screen shots showing Verizon's Media Manager integration with the FiOS TV system. This application let users manage personal media files from a home computer to be viewed through a FiOS TV set top box.</p>
+          <p>Screen shots showing integrations with Verizon's Media Manager desktop application with the FiOS TV system. This application let users manage personal media files from a home computer to be viewed through a FiOS TV set top box.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true'>
             <div><img src={vz_fios_mm0} /></div>
             <div><img src={vz_fios_mm1} /></div>
@@ -98,7 +98,7 @@ class BlogPortfolio extends React.Component {
 
           <hr />
           <h5>Verizon FiOS Facebook Integration</h5>
-          <p>Screen shots showing the user experience of sharing FiOS media with Facebook and other social media platforms.</p>
+          <p>Screen shots showing the user experience of sharing FiOS media with your Facebook feed and other social media platforms.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={80}>
             <div><img src={vz_fios_fb1} /></div>
             <div><img src={vz_fios_fb2} /></div>
@@ -107,7 +107,7 @@ class BlogPortfolio extends React.Component {
             
           <hr />
           <h5>Verizon Card Search</h5>
-          <p>Screen comps. that illustrate a concept for browsing card style records using the up, down, left, right buttons on older style cell phones.</p>
+          <p>Screen comps. that illustrating a concept for browsing card style records using the up, down, left, right buttons (d-pad) on older style cell phones.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
             <div><img src={vz_x1} /></div>
             <div><img src={vz_x2} /></div>

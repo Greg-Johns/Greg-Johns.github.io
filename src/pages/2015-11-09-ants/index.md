@@ -23,4 +23,4 @@ But somewhere in the winding link's I found myself reading a [blog article](http
 
 So basically, interaction through the environment. In an example he talks about how an ant uses pheremone trails to communicate a food source to other ants. He goes on to claim that *The World-Wide Web is the first stimeric communication medium for humans*.
 
-It's was very interesting and I could have kept the procrastination up much longer but felt like getting back to writing. Ok, so here it is. It's very self descriptive but I wanted to kick the tires on Metalsmith and get back into a writing mode more than actually writing something useful, however, I did get to use a lot of big new words.
+It was very interesting and I could have kept the procrastination up much longer but felt like getting back to writing. Ok, so here it is. It's very self descriptive but I wanted to kick the tires on Metalsmith and get back into a writing mode more than actually writing something useful, however, I did get to use a lot of big new words.
