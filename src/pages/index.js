@@ -25,8 +25,7 @@ class BlogIndex extends React.Component {
         <nav>~
           <Link className='active'>Blog</Link>-
           <Link to='/about/'>About</Link>-
-          <Link to='/portfolio/'>Portfolio</Link>-
-          <a href='www.gregjohns.com/cv'>Resume</a>~
+          <Link to='/portfolio/'>Portfolio</Link>~
         </nav>
 
         {posts.map(post => {

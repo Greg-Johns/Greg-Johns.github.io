@@ -73,12 +73,14 @@ class BlogPortfolio extends React.Component {
         <nav>~
           <Link to='/'>Blog</Link>-
           <Link to='/about/'>About</Link>-
-          <Link className='active'>Portfolio</Link>-
-          <a href=''>Resume</a>~
+          <Link className='active'>Portfolio</Link>~
         </nav>
         <article>
           <p className='intro'>With over two decades of experience innovating in the digital media industries. I have managed and consulted for corporations of all shapes and sizes, developed a variety of pioneering online services, B2B systems, SAAS systems, and hold 11 patents. I've helped small business owners and big CEO's take their idea from the back of napkin or multi-page business requirement document to their online dream. I've worked with stakeholders to shake out ideas, define information spaces, identify design patterns, understand their users, wireframe mockups, prototype, test, iterate, build teams, build processes, build users and realize their next new thing. I even alternate between electric and manual toothbrush every other night because I think it makes my teeth cleaner.</p>
 
+            <nav> 
+              <a href='www.gregjohns.com/cv'>Online Resume</a>
+            </nav>
             <p>For those currious about my thoughts and approach to developing software or computers I have a few related blog posts you can read or skip over to my Github, NPM profiles. For those looking for more of the conceptual/design side of software the following are a few case studies of some of my UI/UX work.</p>
 
           <h2 style={breakerBreaker}> ~ UI/UX ~ </h2>
@@ -143,7 +145,7 @@ class BlogPortfolio extends React.Component {
 
           <hr />
           <h5>Various</h5>
-          <p>A few screen shots of older sites that I designed and developed for various companies earlier in my career.</p>
+          <p>A few more screen shots of older sites I've designed and developed for various companies earlier in my career.</p>
           <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
             <div><img src={s1} /></div>
             <div><img src={s2} /></div>

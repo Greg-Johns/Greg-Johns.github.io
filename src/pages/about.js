@@ -26,8 +26,7 @@ class BlogAbout extends React.Component {
         <nav>~
           <Link to='/'>Blog</Link>-
           <Link className='active'>About</Link>-
-          <Link to='/portfolio/'>Portfolio</Link>-
-          <a href=''>Resume</a>~
+          <Link to='/portfolio/'>Portfolio</Link>~
         </nav>
         <article>
 
