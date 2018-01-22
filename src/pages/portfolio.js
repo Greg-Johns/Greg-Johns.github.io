@@ -85,7 +85,7 @@ class BlogPortfolio extends React.Component {
 
           <h5>Verizon FiOS Media Manager</h5>
           <p>text</p>
-          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
+          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true'>
             <div><img src={vz_fios_mm0} /></div>
             <div><img src={vz_fios_mm1} /></div>
             <div><img src={vz_fios_mm2} /></div>
@@ -105,7 +105,7 @@ class BlogPortfolio extends React.Component {
             
           <hr />
           <h5>Verizon FiOS Facebook Integration</h5>
-          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
+          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={80}>
             <div><img src={vz_fios_fb1} /></div>
             <div><img src={vz_fios_fb2} /></div>
             <div><img src={vz_fios_fb3} /></div>
@@ -113,7 +113,7 @@ class BlogPortfolio extends React.Component {
             
           <hr />
           <h5>Verizon CX</h5>
-          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={50}>
+          <Carousel centerMode showStatus='false' showIndicators={false} emulateTouch='true' centerSlidePercentage={60}>
             <div><img src={vz_cx1} /></div>
             <div><img src={vz_cx2} /></div>
             <div><img src={vz_cx3} /></div>
