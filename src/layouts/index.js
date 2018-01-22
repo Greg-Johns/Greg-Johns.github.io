@@ -5,19 +5,19 @@ class Template extends React.Component {
   render() {
     const { location, children } = this.props
     let header
-    if (location.pathname === '/' || location.pathname ==='/about/') {
+    if (location.pathname === '/' 
+        || location.pathname ==='/about/'
+        || location.pathname ==='/portfolio/') {
       header = (
         ''
       )
     } else {
       header = (
-        <Link className='homeLink' to={'/'}>
-          G
-        </Link>
+        <Link className='homeLink' to={'/'}>G</Link>
       )
     }
     return (
-      <div className="container prose">
+      <div className="container">
         {header}
         {children()}
       </div>

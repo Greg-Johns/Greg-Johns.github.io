@@ -13,8 +13,6 @@ One of the more interesting ideas I had from this prolonged thinking on *time* a
 
 Verizon liked the idea and patented it. But alas, the *time* was not right, priorities change and the idea was never implemented.
 
-So in the interest of *time* and future reference.
-
 [TimeWinder](./TimeWinder.pdf)
 
-> This was pitched 7 years ago, so think dawn of smart phone *time* to help set the "mood" of the interface.
+> This was pitched at the dawn of the smart phone to help set the "mood" of the interface.

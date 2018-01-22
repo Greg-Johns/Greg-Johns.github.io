@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import '../css/styles.css'
 import get from 'lodash/get'
-import me from './me.png'
-import spock from './spock.jpg'
+import me from './img/me.png'
+import spock from './img/spock.jpg'
 import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 
@@ -16,12 +16,19 @@ class BlogAbout extends React.Component {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
 
     return (
-      <div>
+      <div className='mainGrid'>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 
         <Link to='/'>
           <header className='about'>GREG JOHNS</header>
         </Link>
+
+        <nav>~
+          <Link to='/'>Blog</Link>-
+          <Link className='active'>About</Link>-
+          <Link to='/portfolio/'>Portfolio</Link>-
+          <a href=''>Resume</a>~
+        </nav>
         <article>
 
           <figure>
@@ -57,9 +64,6 @@ class BlogAbout extends React.Component {
             </li>
           </ul>
         </article>
-        <nav>
-          <Link to='/'>~ Back to Index ~</Link>
-        </nav>
         <Footer />
       </div>
     )

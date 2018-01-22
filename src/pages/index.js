@@ -17,10 +17,17 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <div>
+      <div className='mainGrid'>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 
         <header>{get(this, 'props.data.site.siteMetadata.title')}</header>
+
+        <nav>~
+          <Link className='active'>Blog</Link>-
+          <Link to='/about/'>About</Link>-
+          <Link to='/portfolio/'>Portfolio</Link>-
+          <a href='www.gregjohns.com/cv'>Resume</a>~
+        </nav>
 
         {posts.map(post => {
           if (post.node.path !== '/404/') {
@@ -30,9 +37,6 @@ class BlogIndex extends React.Component {
             )
           }
         })}
-        <nav>
-          <span style={disabledBtn}>~ Older stuff</span> | <Link to='/about/'>About</Link> | <span style={disabledBtn}>Newer stuff ~</span>
-        </nav>
         <Footer />
       </div>
     )

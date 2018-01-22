@@ -11,7 +11,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
-      <article>
+      <article className='mainGrid'>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
         <h2 className='postHeader'>~ {post.frontmatter.title} ~</h2>
         <time>

@@ -11,7 +11,7 @@ What could you do with lot's of anonymized purchasing data???
 
 Imagine a large grocery chain gave you access to the anonymized purchase history of all its customers. Your tasked with creating a user experience for the retailer to explore this data, discover insights, and apply them to make their business more profitable and their customers happy.
 
-> This problem was originally given to me by a company I interviewed with. Candidates where given a day to work through the problem and come up with rough, sketches, wire-frames or whatever they could to convey a solution.  They never called me back so it might not have been the kind of answer they where looking for but I thought it a fun exercise and wanted to get some more use out of my efforts so here's what I came up with.
+> This problem was originally given to me by a company I interviewed with. Candidates where given a day to work through the problem and come up with rough, sketches, wire-frames or whatever they could to convey a solution.  They never called me back so it might not have been the kind of answer they were looking for, however, I thought it a fun exercise and wanted to get some more use out of my efforts so here's what I came up with.
 
 #### *Answer:*
 
