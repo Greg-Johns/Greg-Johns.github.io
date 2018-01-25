@@ -37,8 +37,8 @@
       "component---src-layouts-index-js-16ab86139f9736b15655.js.map"
     ],
     "path---index": [
-      "path---index-c2eb7cf2bed376ce91ca.js",
-      "path---index-c2eb7cf2bed376ce91ca.js.map"
+      "path---index-83071f291dc50231c9a6.js",
+      "path---index-83071f291dc50231c9a6.js.map"
     ],
     "commons": [
       "commons-50f57fbd0af0830bd995.js",
@@ -55,9 +55,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ebc8109e68eaea085a76.js",
+      "app-5f7d19f63a74f6c7acae.js",
       "build-js-styles.css",
-      "app-ebc8109e68eaea085a76.js.map",
+      "app-5f7d19f63a74f6c7acae.js.map",
       "build-js-styles.css.map"
     ],
     "path---iojs": [
@@ -65,16 +65,20 @@
       "path---iojs-5fa15b8b952bdab936e6.js.map"
     ],
     "component---src-pages-portfolio-js": [
-      "component---src-pages-portfolio-js-2fd84c9f68172671082c.js",
-      "component---src-pages-portfolio-js-2fd84c9f68172671082c.js.map"
+      "component---src-pages-portfolio-js-aefec56c73ea43de0e26.js",
+      "component---src-pages-portfolio-js-aefec56c73ea43de0e26.js.map"
+    ],
+    "path---teaparty": [
+      "path---teaparty-8ece2247261082e3bf9b.js",
+      "path---teaparty-8ece2247261082e3bf9b.js.map"
     ],
     "path---qpt": [
       "path---qpt-732e6fc5aeaa84e43ec0.js",
       "path---qpt-732e6fc5aeaa84e43ec0.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-7d706d75280e67eaaaa9.js",
-      "component---src-pages-about-js-7d706d75280e67eaaaa9.js.map"
+      "component---src-pages-about-js-47272452829051ce0208.js",
+      "component---src-pages-about-js-47272452829051ce0208.js.map"
     ],
     "path---about": [
       "path---about-fdf2d03ea32cc49dec93.js",
