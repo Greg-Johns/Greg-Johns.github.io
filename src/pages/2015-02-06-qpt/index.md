@@ -16,7 +16,7 @@ QPT, or **Quick Price Tool** in the expanded version helps Avaya customers quote
 
 ![QPT](./qpt.jpg)
 
-As a general description and for the sake of this post I'll describe it as a web based tool for ordering network software, hardware and other supporting services from Avaya. These *services* have some *technical* dependencies that can make the orders somewhat complex so the flow of an *order* in this system goes through four states:
+As a general description I would describe it as a web based tool for ordering network software, hardware and other supporting services from Avaya. These *services* have some *technical* dependencies that can make the orders somewhat complex so the flow of an *order* in this system goes through four states:
 
   1. Design
   2. Quote pending

@@ -4,7 +4,6 @@ date: "2014-07-03"
 path: "/grokkr/"
 ---
 
-- - -
 #### *Question:*
 
 What could you do with lot's of anonymized purchasing data???
