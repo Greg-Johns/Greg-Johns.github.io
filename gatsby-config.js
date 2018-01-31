@@ -34,6 +34,15 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Lorea`,
+          `Nunito+Sans\:900`
+        ]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -42,8 +51,6 @@ module.exports = {
         trackingId: `UA-570618-1`
       }
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-typography`
   ]
 }
