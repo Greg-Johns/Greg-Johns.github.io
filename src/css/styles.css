@@ -1,8 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Lorea";
 }
 
+/* Layout stuff */
 .mainGrid {
   display: grid;
   grid-template-columns:
@@ -37,47 +39,38 @@ hr {
   border: 1px dashed #cfa63e;
   display: block;
 }
+/* End layout */
 
-header::before {
+header::before, header::after {
   display: block;
+  font-size: 11px;
   text-align: left;
   content: 'Stuff';
   color: #CFA63E;
-  font-family: "Garamond";
+  font-family: 'Lorea';
   font-style: italic;
-  letter-spacing: 1.6px;
-  padding: 40px 0 0 28px;
-  margin-bottom: -10px;
-  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 20px 0 0 28px;
+}
+header::after {
+  padding: 0 0 18px 0;
+  margin-left: 2%;
+  width: 96%;
+  text-align: right;
+  content: 'wrote';
+  border-bottom: 2px dotted #CFA63E;
 }
 header {
   grid-column: main;
   text-align: center;
-  font-family: "Futura";
+  font-family: 'Nunito Sans', sans-serif;
   color: #000;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 84px;
+  line-height: 1;
+  font-size: 94px;
   transition-property: font-size;
   transition-duration: .4s;
-  letter-spacing: -0.04em;
+  letter-spacing: 0em;
   border-bottom: 1px solid #96741D;
-}
-header::after {
-  display: block;
-  margin-top: -8px;
-  margin-left: 2%;
-  width: 96%;
-  text-align: right;
-  color: #CFA63E;
-  font-family: "Garamond";
-  font-style: italic;
-  content: 'wrote';
-  letter-spacing: 1.6px;
-  font-size: 12px;
-  padding-bottom: 20px;
-  border-bottom: 2px dotted #CFA63E;
 }
 
 .about::before {
@@ -91,10 +84,21 @@ header::after {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Garamond";
   font-style: italic;
-  letter-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 1.4px;
   color: #CFA63E;
+}
+
+.postHeader {
+  position: sticky;
+  top: 0;
+  padding: 18px 0;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-align: center;
+  background: #fff;
+  color: #96741D;
 }
 
 figure {
@@ -127,10 +131,6 @@ figcaption {
   margin: 14px 0;
 }
 
-h2 {
-  text-align: center;
-}
-
 .smImg {
   width: 280px;
   float: left;
@@ -148,7 +148,7 @@ nav a {
   padding: 4px 8px;
   margin: 4px;
   color: #96741D;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 1px;
   text-decoration: none;
   background: #e3dac3;
@@ -167,14 +167,16 @@ nav a:hover, .active {
   top: 12px;
   color: #fff;
   background: #e3dac3;
-  font-family: Futura;
-  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 42px;
-  padding: 3px 12px 2px 10px;
+  width: 60px;
+  height: 60px;
   margin-left: 20%;
+  line-height: 0;
+  padding: 0px 14px;
   border-radius: 50%;
   z-index: 1001;
-  transition: background 0,5s ease;
+  transition: background 0.5s ease;
 }
 .homeLink:hover {
   background: #8e7777;
@@ -196,8 +198,9 @@ footer {
 }
 footer p {
   font-size: 11px;
-  font-family: "Futura";
-  line-height: 1.5;
+  font-family: sans-serif;
+  color: #999;
+  line-height: 1.4;
 }
 footer b {
   display: block;
@@ -205,8 +208,8 @@ footer b {
   margin: 8px 0;
 }
 footer > * {
-  color: #8e7777;
   padding-top: 10px;
+  color: #999;
 }
 footer span {
   display: flex;
@@ -223,15 +226,6 @@ footer span a:hover svg {
   fill: #96741D;
 }
 
-h3 {
-  font-style: italic;
-  font-size: 26px;
-  font-weight: 200;
-  padding: 2px 0;
-  margin: 20px 0;
-  border-bottom: 1px dashed grey;
-}
-
 .listLinks li {
   list-style: none;
 }
@@ -245,8 +239,7 @@ h3 {
 
 .listLinks li a {
   color: #96741D;
-  font-family: "Futura";
-  font-weight: 500;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 22px;
   letter-spacing: 1px;
   padding: 18px 0; 
@@ -254,12 +247,16 @@ h3 {
 
 p {
   font-size: 14px;
+  font-weight: normal;
   line-height: 1.5;
+  color: #333;
+  letter-spacing: 0.8px;
   margin: 0;
 }
 
 .intro::first-letter {
   font-size: 24px;
+  line-height: 1;
   color: #96741D;
 }
 
@@ -310,30 +307,16 @@ a:hover section, a section h3 {
 }
 a section h3 { 
   letter-spacing: 0;
-  transition: color 0.5s ease;
+  border-bottom: 1px dashed #999;
+  transition: color 0.25s ease;
 }
 a section h3:hover {
   color: #96741D;
   border-bottom: 1px solid #96741D;
 }
 
-.postHeader {
-  position: sticky;
-  top: 0;
-  padding: 18px 0;
-  font-family: "Garamond";
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-align: center;
-  background: #fff;
-  color: #96741D;
-  /* border-bottom: 1px dashed grey; */
-}
 article p {
   margin: 32px 0;
-}
-footer p {
-  margin: 0;
 }
 
 article a {
@@ -369,8 +352,14 @@ blockquote p {
 }
 
 @media only screen and (max-width: 600px) {
+  header::before {
+    padding-left: 8px;
+  }
+  header::before, header::after {
+    font-size: 10px;
+  }
   header {
-    font-size: 48px;
+    font-size: 12vw;
   }
   section {
     margin: 0 0.6em;
