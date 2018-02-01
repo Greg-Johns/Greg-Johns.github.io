@@ -169,10 +169,7 @@ nav a:hover, .active {
   background: #e3dac3;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 42px;
-  width: 60px;
-  height: 60px;
   margin-left: 20%;
-  line-height: 0;
   padding: 1px 16px 0px 14px;
   border-radius: 50%;
   z-index: 1001;
