@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   background: #fff;
   color: #96741D;
+  z-index: 1000;
 }
 
 figure {
@@ -122,9 +123,9 @@ figure {
 }
 
 figcaption {
-  line-height: 0;
-  margin-top: -20px;
+  line-height: 1;
   font-size: 10px;
+  color: #CFA63E;
   font-style: italic;
 }
 .mdFigure figcaption {
@@ -162,9 +163,8 @@ nav a:hover, .active {
 }
 
 .homeLink {
-  display: flow;
   position: sticky;
-  top: 12px;
+  top: 10px;
   color: #fff;
   background: #e3dac3;
   font-family: 'Nunito Sans', sans-serif;
